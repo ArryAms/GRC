@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cd259f11877fdd1083dd40c80cbb35ff" label="snc_data_recovery_stage_v3" max_length="40" name="x_snc_test_orphan_u_snc_data_recovery_stage_v3" type="collection">
+        <element label="Missing Record(s)" max_length="10" name="x_snc_test_orphan_u_missing_record" type="boolean"/>
+        <element label="Referring record(s)" max_length="1000000" name="x_snc_test_orphan_u_rf_ids" type="string"/>
+        <element label="Field Name" max_length="200" name="x_snc_test_orphan_u_rf_field_name" type="string"/>
+        <element label="Table Name" max_length="200" name="x_snc_test_orphan_u_rf_table_name" type="string"/>
+        <element label="Deleted Record ID" max_length="40" name="x_snc_test_orphan_u_dl_sys_id" type="string"/>
+    </element>
+</database>
